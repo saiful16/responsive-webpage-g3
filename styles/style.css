@@ -23,7 +23,8 @@ header {
 }
 
 .navbar,
-.banner {
+.banner,
+main {
     max-width: 1440px;
     margin: 50px auto;
 }
@@ -50,7 +51,8 @@ header {
     letter-spacing: 0%;
 
 }
-.nav-link a:hover{
+
+.nav-link a:hover {
     background-color: orange;
 }
 
@@ -88,14 +90,49 @@ header {
 
 .banner-image {
     width: 100%;
+    margin-bottom: 50px;
+}
+
+main>section {
+    margin-bottom: 130px;
+}
+
+/* quick feature section start from here */
+.quick-feature-container {
+    display: flex;
+    align-items: center;
+}
+.quick-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.qucik-feature-content {
+
+    max-width: 537px;
+    margin-left: 50px;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+}
+
+.section-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 
-
 /* media queries  */
-@media screen and (max-width: 576px ) {
+@media screen and (max-width: 576px) {
     .navbar {
         flex-direction: column;
     }
-    
+
 }
