@@ -24,7 +24,8 @@ header {
 
 .navbar,
 .banner,
-main {
+main,
+footer {
     max-width: 1440px;
     margin: 50px auto;
 }
@@ -213,6 +214,15 @@ main>section {
 } */
 
 /* media queries  for small device*/
+
+/* footer */
+footer {
+    text-align: center;
+    border-radius: 8px;
+    padding: 38px;
+    background: rgb(255, 244, 231);
+}
+
 @media screen and (max-width: 576px) {
 
     .navbar,
@@ -258,6 +268,17 @@ main>section {
         height: auto;
         width: auto;
     }
+    .enjoy-content {
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 0 auto;
+    }
+
+    .btn-photo {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
 }
 
 /* media queries for medium devices */
@@ -287,5 +308,20 @@ main>section {
     .card {
         height: auto;
         width: auto;
+    }
+
+    .enjoy-content {
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .btn-photo {
+        margin: 30px auto;
     }
 }
