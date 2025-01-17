@@ -161,7 +161,7 @@ main>section {
 /* feature love and enjoy section */
 .enjoy-container {
     display: flex;
-    gap: 20px;
+    gap: 140px;
 }
 
 .architect-img {
@@ -170,6 +170,7 @@ main>section {
 
 .enjoy-content {
     /* padding-right: 20px; */
+    max-width: 586px;
 
 }
 
@@ -194,20 +195,18 @@ main>section {
 
 }
 
-/* floating experience  */
-.floting {
+.btn-photo {
+    padding: 40px;
     border-radius: 8px;
     color: rgb(255, 255, 255);
-    width: 342px;
-    height: 200px;
     background: rgb(255, 144, 14);
-    position: absolute;
-    left: 922px;
-    right: -838px;
-    top: 3150px;
-    bottom: -3059px;
-    padding: 40px;
+    border: none;
+    margin-top: -150px;
+    margin-left: -50px;
 }
+
+/* floating experience  */
+
 
 /* .card-container{
     padding: 20px;
